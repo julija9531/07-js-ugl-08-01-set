@@ -1,0 +1,37 @@
+{
+  "name": "07-js-ugl-06-01-for-in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julija9531/07-js-ugl-08-01-set.git"
+  },
+  "author": "pushkareva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julija9531/07-js-ugl-08-01-set/issues"
+  },
+  "homepage": "https://github.com/julija9531/07-js-ugl-08-01-set#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.5.0",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.30.2"
+  }
+}
